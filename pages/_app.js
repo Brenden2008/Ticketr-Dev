@@ -1,5 +1,5 @@
 import '../styles/var.sass';
-import '../bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
