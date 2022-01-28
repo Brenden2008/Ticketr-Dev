@@ -44,7 +44,8 @@ export default function Home() {
                       Simple Event Registration Pages
                     </h4>
                     <p className="text-secondary">
-                      Ticketr includes a free event man
+                      Ticketr includes free event pages for a simple booking
+                      experience.
                     </p>
                   </div>
                 </div>
@@ -87,7 +88,7 @@ export default function Home() {
             <div className="align-items-center row">
               <div className="col-md pb-2 pt-2">
                 <p className="mb-0">
-                  &copy; 2002 - 2020. All Rights Reserved - Company Name
+                  &copy; 2022. All Rights Reserved - Ticketr
                 </p>
               </div>
               <div className="col-md-auto pb-2 pt-2">
