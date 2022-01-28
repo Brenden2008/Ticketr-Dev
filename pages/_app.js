@@ -1,6 +1,7 @@
-import '../styles/var.sass';
 import '../node_modules/bootstrap/scss/bootstrap.scss';
+import '../styles/var.css';
 import Head from 'next/head';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,6 +15,8 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <Script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" />
+        <Script src="../node_modules/@popperjs/core/dist/umd/popper.min.js" />
         <title>Ticketr - Home</title>
         <link
           href="bootstrap_theme/bootstrap.css"
@@ -22,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="stylesheet" href="blocks.css" />
         <link href="style.css" rel="stylesheet" />
-        <nav className="bg-dark navbar navbar-expand-lg py-lg-1 text-uppercase">
+        <nav className="bg-dark navbar navbar-expand-lg py-lg-1 text-uppercase text-primary">
           <div className="container">
             {' '}
             <a
@@ -48,7 +51,7 @@ function MyApp({ Component, pageProps }) {
                 <li className="nav-item">
                   {' '}
                   <a
-                    className="active nav-link px-lg-3 py-lg-4 text-capitalize"
+                    className="active nav-link px-lg-3 py-lg-4 text-capitalize text-primary"
                     aria-current="page"
                     href="#"
                   >
@@ -58,7 +61,7 @@ function MyApp({ Component, pageProps }) {
                 <li className="nav-item">
                   {' '}
                   <a
-                    className="nav-link px-lg-3 py-lg-4 text-capitalize"
+                    className="nav-link px-lg-3 py-lg-4 text-capitalize text-primary"
                     href="#"
                   >
                     About
@@ -67,7 +70,7 @@ function MyApp({ Component, pageProps }) {
                 <li className="nav-item">
                   {' '}
                   <a
-                    className="nav-link px-lg-3 py-lg-4 text-capitalize"
+                    className="nav-link px-lg-3 py-lg-4 text-capitalize text-primary"
                     href="#"
                   >
                     Features
@@ -77,7 +80,7 @@ function MyApp({ Component, pageProps }) {
                 <li className="nav-item">
                   {' '}
                   <a
-                    className="nav-link px-lg-3 py-lg-4 text-capitalize"
+                    className="nav-link px-lg-3 py-lg-4 text-capitalize text-primary"
                     href="#"
                   >
                     Contact

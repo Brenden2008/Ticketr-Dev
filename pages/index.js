@@ -93,8 +93,6 @@ export default function Home() {
             </div>
           </div>
         </footer>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
       </body>
     </div>
   );
