@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -78,7 +79,9 @@ export default function Home() {
             </div>
           </section>
         </section>
-        <div className="container"></div>
+        <div className="container">
+          <Script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" />
+        </div>
         <footer className="pb-3 pt-3 small text-primary">
           <div className="container">
             <div className="align-items-center row">
@@ -88,7 +91,13 @@ export default function Home() {
                 </p>
               </div>
               <div className="col-md-auto pb-2 pt-2">
-                <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+                <a href="#" className="text-primary">
+                  Privacy Policy
+                </a>{' '}
+                |{' '}
+                <a href="#" className="text-primary">
+                  Terms of Use
+                </a>
               </div>
             </div>
           </div>

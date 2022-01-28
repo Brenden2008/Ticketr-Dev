@@ -15,16 +15,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <Script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" />
-        <Script src="../node_modules/@popperjs/core/dist/umd/popper.min.js" />
         <title>Ticketr - Home</title>
-        <link
-          href="bootstrap_theme/bootstrap.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link rel="stylesheet" href="blocks.css" />
-        <link href="style.css" rel="stylesheet" />
         <nav className="bg-dark navbar navbar-expand-lg py-lg-1 text-uppercase text-primary">
           <div className="container">
             {' '}
@@ -39,6 +30,7 @@ function MyApp({ Component, pageProps }) {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown-3"
+              href="#navbarNavDropdown-3"
               aria-controls="navbarNavDropdown-3"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -46,7 +38,7 @@ function MyApp({ Component, pageProps }) {
               {' '}
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse " id="navbarNavDropdown-3">
+            <div className="collapse navbar-collapse" id="navbarNavDropdown-3">
               <ul className="mb-2 mb-lg-0 ms-auto navbar-nav">
                 <li className="nav-item">
                   {' '}
@@ -98,6 +90,7 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
         </nav>
+        <Script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" />
       </Head>
       <Component {...pageProps} />
     </>
