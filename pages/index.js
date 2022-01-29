@@ -17,7 +17,7 @@ export default function Home() {
                     Ticketr is a free booking and registration solution for
                     events of all sizes.
                   </p>{' '}
-                  <a href="#" className="btn btn-primary pe-3 ps-3">
+                  <a href="#" className="btn btn-primary pe-3 ps-3" >
                     Get It Now
                   </a>
                 </div>
