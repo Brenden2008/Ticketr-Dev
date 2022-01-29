@@ -14,7 +14,7 @@ export default function Home() {
                     Add booking to your events in minutes using Ticketr
                   </h1>
                   <p className="fw-light lead mb-4 text-white">
-                    Ticketr is a free, open source booking and registration for
+                    Ticketr is a free booking and registration solution for
                     events of all sizes.
                   </p>{' '}
                   <a href="#" className="btn btn-primary pe-3 ps-3">
